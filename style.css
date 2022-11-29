@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: rgb(61, 70, 92);
+    color: #0f141e;
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */
+   /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    /* font: normal 16px 'Roboto', sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.avatar {
+    width: 195px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) ;
+    border-bottom: solid #86898f 2px;
+}
+
+.contacts {
+    height: 250px;
+    border-right: #86898f solid 1px;
+    border-right-style: ridge;
+}
+
+.container {
+    background-color: #f1f1f1;
+    height: 1800px;
+    padding: 5px;
+    padding-right: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 1ex;
+    max-width: 750px;
+    margin: auto;
+    list-style: decimal ;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: #8d8a8a;
+}
+
+.info {
+    width: 28%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.info p {
+    color: #86898f;
+    margin: 16px 0;
+}
+
+.FIO {
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+ .FIO h2 {
+   
+    margin-bottom: 50px;
+    border-bottom: solid #86898f 2px ;
+       
+} 
+.FIO p {
+    font: 14px ;
+    color: #86898f;
+}
+.container > div {
+    float: left;
+    box-sizing: border-box;
+   
+}
+.education {
+    width: 70%;
+    margin-top: 105px;
+    padding-left: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+    
+}
+
+.experience {
+    width: 750px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.skills {
+    width: 750px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.footer {
+    width: 750px;
+    font-size: 14px;
+    text-align: center;
+}
+
